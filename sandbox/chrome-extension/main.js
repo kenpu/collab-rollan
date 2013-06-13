@@ -1,10 +1,10 @@
 $(function() {
     var body = $("body");
     var box = $("<div class='box'></div>")
-    $("<div><input type='text'></input><span></span></div>").appendTo(box);
+    $("<div><textarea></textarea><span></span></div>").appendTo(box);
     body.append(box)
 
-    var input = $("input", box);
+    var input = $("textarea", box);
     var counter = $("span", box);
 
     var canvas = $("<canvas id='TheCanvas'></canvas>").appendTo(body);
